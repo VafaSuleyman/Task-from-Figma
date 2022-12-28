@@ -1,0 +1,141 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200&display=swap');
+
+.container
+{
+    min-width: 1440px;
+    background-color: #FFFFFF;
+    font-family: Roboto, Slab;
+    padding: 91px 124px;
+}
+
+header
+{
+    width: 365px;
+    height: 93px;
+    left: 124px;
+    top: 91px;
+}
+
+h1
+{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 55px;
+}
+
+.body, .foot
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.foot
+{
+    margin-top: 175px;
+    margin-bottom: 173px;
+    margin-right: 314px;
+}
+
+.text
+{
+    width: 662px;
+    height: 374px;
+    left: 124px;
+    top: 202px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 150%;
+}
+
+.picture1
+{
+    width: 314px;
+    height: 315px;
+    right: 150px;
+    left: 976px;
+    top: 226px;
+}
+
+.picture2
+{
+    width: 232px;
+    height: 203px;
+    left: 124px;
+    bottom: 173px;
+}
+
+.h8, .h2, .h3
+{
+    width: 150px;
+    height: 39px;
+    top: 740px;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 130%;
+}
+
+.text8, .text2, .text3
+{
+    width: 150px;
+    height: 39px;
+
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 130%;
+}
+
+@media screen and (min-width: 400px) and (max-width: 830px){
+
+    .container
+    {
+        width: 100%;
+        display: block;
+    }
+
+    .body
+    {
+        width: 60%;
+    }
+
+    .foot
+    {
+        width: 35%;
+    }
+
+    .picture2
+    {
+        display: none;
+    }
+
+}
+
+
+@media screen and (max-width: 400px){
+    .container
+    {
+        width: 100%;
+        display: block;
+    }
+
+    .body
+    {
+        flex-direction: column;
+        justify-content: flex-start;  
+        width: 400px;
+        padding-left: 124px;
+    }
+
+    .text
+    {
+        padding-left: 10px;
+    }
+    
+    .picture2
+    {
+        display: none;
+    }
+
+}
+
